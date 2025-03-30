@@ -61,17 +61,12 @@ pet-clinic-app/
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/pet-clinic-app.git
-cd pet-clinic-app
+[git clone https://github.com/your-username/pet-clinic-app.git](https://github.com/it21336218/Pet-Clinic-App.git)
 npm install
 ```
 
 Setup environment variables:
 
-- **Frontend** (`frontend/.env.local`):
-```env
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
-```
 
 - **Backend** (`backend/.env`):
 ```env
