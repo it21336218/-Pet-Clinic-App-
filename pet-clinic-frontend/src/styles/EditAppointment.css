@@ -1,0 +1,24 @@
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeInUp {
+    animation: fadeInUp 0.6s ease-out both;
+  }
+  
+  .edit-wrapper {
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .edit-container {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  

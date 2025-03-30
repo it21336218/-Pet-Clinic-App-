@@ -1,0 +1,30 @@
+.register-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    animation: backgroundShift 10s ease-in-out infinite alternate;
+  }
+  
+  @keyframes backgroundShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+  
+  .register-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .register-logo {
+    max-width: 80px;
+    margin: 0 auto 1rem auto;
+    display: block;
+  }
+  

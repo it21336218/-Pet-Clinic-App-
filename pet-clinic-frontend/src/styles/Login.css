@@ -1,0 +1,30 @@
+.login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+    animation: backgroundAnimation 10s ease infinite alternate;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+  }
+  
+  .login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-logo {
+    max-width: 80px;
+    margin: 0 auto 1rem auto; /* center horizontally + spacing below */
+    display: block;
+  }
+  

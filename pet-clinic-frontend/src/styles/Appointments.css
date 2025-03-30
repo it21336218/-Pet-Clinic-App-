@@ -1,0 +1,51 @@
+@keyframes fadeInCard {
+    from {
+      opacity: 0;
+      transform: translateY(25px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .appointment-card {
+    animation: fadeInCard 0.5s ease-out;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(12px);
+    border-left: 6px solid #6366f1;
+  }
+  
+  button {
+    font-weight: 500;
+    transition: all 0.25s ease;
+  }
+  
+  button:hover {
+    transform: translateY(-1px);
+  }
+  
+  button:active {
+    transform: scale(0.96);
+  }
+  
+  input, select {
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    border-color: #6366f1;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.25);
+  }
+  
+  .admin-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.75rem;
+    background: #e0f2fe;
+    color: #0284c7;
+    border-radius: 9999px;
+    font-weight: 600;
+  }
+  
