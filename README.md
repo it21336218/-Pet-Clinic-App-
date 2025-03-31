@@ -18,7 +18,7 @@ Welcome to the **Pet Clinic App**, a comprehensive full-stack application built 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Next.js**
+- **React.js**
 - **Tailwind CSS**
 - **React Icons**
 - **Axios**
